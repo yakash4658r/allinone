@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="100%" overflow="visible" preserveAspectRatio="none" style="display: block;" viewBox="0 0 81.8001 81.8001" width="100%">
+<g id="Frame 319" opacity="0.7">
+<rect fill="var(--fill-0, white)" height="81.8001" rx="40.9001" width="81.8001"/>
+<g clip-path="url(#clip0_0_14274)" id="flutter-icon 1">
+<g id="Group">
+<path d="M37.3642 21.1515L57.4074 40.9348L51.2038 47.0578L24.9572 21.1515H37.3642Z" fill="var(--fill-0, #47C5FB)" id="Vector"/>
+<path d="M37.5038 39.3961L48.2354 49.9885L42.009 56.2257L35.8169 50.114L24.957 39.3961H37.5038Z" fill="var(--fill-0, #47C5FB)" id="Vector_2"/>
+<path d="M42.0152 56.2257L37.3015 60.8782H24.9632L35.8231 50.1139L42.0152 56.2257Z" fill="var(--fill-0, #00569E)" id="Vector_3"/>
+<path d="M48.3127 50.0555L42.1091 43.9324L35.8243 50.1132L42.0164 56.225L48.3127 50.0555Z" fill="var(--fill-0, #00B5F8)" id="Vector_4"/>
+<path d="M42.0152 56.2259L36.8592 54.537L36.3469 50.6311L42.0152 56.2259Z" fill="url(#paint0_linear_0_14274)" fill-opacity="0.8" id="Vector_5"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient gradientUnits="userSpaceOnUse" id="paint0_linear_0_14274" x1="41.9102" x2="37.8442" y1="52.4641" y2="53.9486">
+<stop/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_0_14274">
+<rect fill="white" height="39.7748" transform="matrix(-1 0 0 1 57.4092 21.1508)" width="32.543"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="100%" overflow="visible" preserveAspectRatio="none" style="display: block;" viewBox="0 0 71 70" width="100%">
+<g id="Frame 2147256732">
+<path d="M0 35C0 15.67 15.67 0 35 0H36C55.33 0 71 15.67 71 35V35C71 54.33 55.33 70 36 70H35C15.67 70 0 54.33 0 35V35Z" fill="var(--fill-0, #FF853C)"/>
+<path d="M35 0.5H36C55.0538 0.500001 70.5 15.9462 70.5 35C70.5 54.0538 55.0538 69.5 36 69.5H35C15.9462 69.5 0.5 54.0538 0.5 35C0.5 15.9462 15.9462 0.5 35 0.5Z" stroke="var(--stroke-0, white)" stroke-opacity="0.15"/>
+<g id="solar:arrow-up-linear">
+<path d="M23.5 35L47.5 35M38.5 26L47.5 35L38.5 44" id="Vector" stroke="var(--stroke-0, white)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</g>
+</g>
+</svg>

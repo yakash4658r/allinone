@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="100%" overflow="visible" preserveAspectRatio="none" style="display: block;" viewBox="0 0 26 26" width="100%">
+<g clip-path="url(#clip0_0_14418)" id="dashicons:welcome-learn-more">
+<path d="M13 13L3.302 9.126L3.9 23.4H1.3L1.924 8.567L4.76837e-07 7.8L13 2.6L26 7.8L13 13ZM13 6.5C12.285 6.5 11.7 6.786 11.7 7.15C11.7 7.514 12.285 7.8 13 7.8C13.715 7.8 14.3 7.514 14.3 7.15C14.3 6.786 13.715 6.5 13 6.5ZM13 14.3L20.241 11.401C21.164 12.623 21.801 14.092 22.009 15.691C21.619 15.639 21.216 15.6 20.8 15.6C17.485 15.6 14.586 17.381 13 20.033C12.1946 18.6823 11.0524 17.5638 9.68523 16.7868C8.31803 16.0097 6.77258 15.6008 5.2 15.6C4.784 15.6 4.381 15.639 3.991 15.691C4.199 14.092 4.836 12.623 5.759 11.401L13 14.3Z" fill="var(--fill-0, #FF7032)" id="Vector"/>
+</g>
+<defs>
+<clipPath id="clip0_0_14418">
+<rect fill="white" height="26" width="26"/>
+</clipPath>
+</defs>
+</svg>

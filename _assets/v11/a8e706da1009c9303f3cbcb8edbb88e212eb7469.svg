@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="100%" overflow="visible" preserveAspectRatio="none" style="display: block;" viewBox="0 0 60 60" width="100%">
+<g id="button">
+<rect fill="var(--fill-0, #FF7032)" fill-opacity="0.2" height="60" rx="30" width="60"/>
+<g id="hugeicons:note">
+<g id="Group">
+<path d="M30.88 25.017L35.654 26.288M29.858 28.813L32.244 29.449M29.977 35.966L30.931 36.221C33.631 36.941 34.981 37.3 36.045 36.689C37.108 36.079 37.47 34.736 38.193 32.052L39.216 28.255C39.94 25.57 40.301 24.228 39.687 23.17C39.073 22.112 37.724 21.753 35.023 21.034L34.069 20.779C31.369 20.059 30.019 19.7 28.956 20.311C27.892 20.921 27.53 22.264 26.806 24.948L25.784 28.745C25.06 31.43 24.698 32.772 25.313 33.83C25.927 34.887 27.277 35.247 29.977 35.966Z" id="Vector" stroke="var(--stroke-0, #FF7032)" stroke-linecap="round" stroke-width="1.5"/>
+<path d="M30 38.946L29.048 39.206C26.354 39.939 25.008 40.306 23.946 39.683C22.886 39.061 22.524 37.692 21.803 34.955L20.782 31.083C20.06 28.346 19.699 26.977 20.312 25.899C20.842 24.966 22 25 23.5 25" id="Vector_2" stroke="var(--stroke-0, #FF7032)" stroke-linecap="round" stroke-width="1.5"/>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="100%" overflow="visible" preserveAspectRatio="none" style="display: block;" viewBox="0 0 22 22" width="100%">
+<g clip-path="url(#clip0_0_4533)" id="icon-park-solid:data-lock">
+<g id="Group">
+<path d="M17.8763 12.8333V14.6667H14.2096V12.8333C14.2096 12.3471 14.4028 11.8808 14.7466 11.537C15.0904 11.1932 15.5567 11 16.043 11C16.5292 11 16.9955 11.1932 17.3393 11.537C17.6831 11.8808 17.8763 12.3471 17.8763 12.8333ZM11.918 14.6667H20.168V20.1667H11.918V14.6667Z" fill="var(--fill-0, white)" id="Vector" stroke="var(--stroke-0, white)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.83333"/>
+<path d="M14.6673 2.75H17.4173C17.9035 2.75 18.3699 2.94315 18.7137 3.28697C19.0575 3.63079 19.2507 4.0971 19.2507 4.58333V7.33333M7.33398 19.25H4.58398C4.09775 19.25 3.63144 19.0568 3.28762 18.713C2.94381 18.3692 2.75065 17.9029 2.75065 17.4167V14.6667M10.084 3.66667V9.16667C10.084 10.1796 8.2369 11 5.95898 11C3.68107 11 1.83398 10.1796 1.83398 9.16667V3.66667" id="Vector_2" stroke="var(--stroke-0, white)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.83333"/>
+<path d="M10.084 6.41602C10.084 7.42893 8.2369 8.24935 5.95898 8.24935C3.68107 8.24935 1.83398 7.42893 1.83398 6.41602" id="Vector_3" stroke="var(--stroke-0, white)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.83333"/>
+<path d="M10.084 3.66634C10.084 4.67926 8.2369 5.49967 5.95898 5.49967C3.68107 5.49967 1.83398 4.67926 1.83398 3.66634C1.83398 2.65342 3.68107 1.83301 5.95898 1.83301C8.2369 1.83301 10.084 2.65342 10.084 3.66634Z" fill="var(--fill-0, white)" id="Vector_4" stroke="var(--stroke-0, white)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.83333"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_4533">
+<rect fill="white" height="22" width="22"/>
+</clipPath>
+</defs>
+</svg>

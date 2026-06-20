@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="100%" overflow="visible" preserveAspectRatio="none" style="display: block;" viewBox="0 0 28 28" width="100%">
+<g id="iconamoon:edit-fill">
+<g id="Group">
+<path d="M5.83268 18.667L4.66602 23.3336L9.33268 22.167L22.8497 8.64997C23.2871 8.2124 23.5329 7.61901 23.5329 7.0003C23.5329 6.38158 23.2871 5.7882 22.8497 5.35063L22.649 5.14997C22.2114 4.71253 21.6181 4.4668 20.9993 4.4668C20.3806 4.4668 19.7872 4.71253 19.3497 5.14997L5.83268 18.667Z" id="Vector" stroke="var(--stroke-0, #5B5B5B)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333"/>
+<path d="M5.83268 18.6667L4.66602 23.3333L9.33268 22.1667L20.9993 10.5L17.4993 7L5.83268 18.6667Z" fill="var(--fill-0, #5B5B5B)" id="Vector_2"/>
+<path d="M17.4993 7L20.9993 10.5M15.166 23.3333H24.4993" id="Vector_3" stroke="var(--stroke-0, #5B5B5B)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333"/>
+</g>
+</g>
+</svg>

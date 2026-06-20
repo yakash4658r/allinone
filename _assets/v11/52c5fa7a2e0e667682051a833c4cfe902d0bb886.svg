@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="100%" overflow="visible" preserveAspectRatio="none" style="display: block;" viewBox="0 0 621.749 592.142" width="100%">
+<g id="Icon">
+<path d="M310.875 562.536C458.039 562.536 577.339 443.236 577.339 296.072C577.339 148.908 458.039 29.6084 310.875 29.6084C163.711 29.6084 44.4111 148.908 44.4111 296.072C44.4111 443.236 163.711 562.536 310.875 562.536Z" id="Vector" stroke="var(--stroke-0, #FF853C)" stroke-dasharray="5.92 8.88" stroke-opacity="0.15" stroke-width="1.48036"/>
+<path d="M310.874 503.322C425.335 503.322 518.123 410.533 518.123 296.072C518.123 181.611 425.335 88.8223 310.874 88.8223C196.413 88.8223 103.624 181.611 103.624 296.072C103.624 410.533 196.413 503.322 310.874 503.322Z" id="Vector_2" stroke="var(--stroke-0, #FF853C)" stroke-opacity="0.2" stroke-width="1.48036"/>
+<path d="M310.874 444.109C392.632 444.109 458.91 377.831 458.91 296.073C458.91 214.315 392.632 148.037 310.874 148.037C229.116 148.037 162.838 214.315 162.838 296.073C162.838 377.831 229.116 444.109 310.874 444.109Z" id="Vector_3" stroke="var(--stroke-0, #FF853C)" stroke-dasharray="5.92 8.88" stroke-opacity="0.25" stroke-width="1.48036"/>
+</g>
+</svg>

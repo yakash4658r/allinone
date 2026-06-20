@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="100%" overflow="visible" preserveAspectRatio="none" style="display: block;" viewBox="0 0 20.479 20.479" width="100%">
+<g id="icon-park-solid:check-one">
+<g id="Mask group">
+<mask height="20" id="mask0_0_7589" maskUnits="userSpaceOnUse" style="mask-type:luminance" width="20" x="0" y="0">
+<g id="Group">
+<g id="Group_2">
+<path d="M10.239 18.7709C11.3597 18.7723 12.4697 18.5522 13.5052 18.1233C14.5406 17.6944 15.4811 17.0651 16.2726 16.2716C17.0661 15.4801 17.6954 14.5396 18.1243 13.5042C18.5532 12.4687 18.7733 11.3588 18.7719 10.238C18.7733 9.11724 18.5532 8.00725 18.1243 6.97181C17.6954 5.93637 17.0661 4.99588 16.2726 4.20438C15.4811 3.41088 14.5406 2.78161 13.5052 2.3527C12.4697 1.92379 11.3597 1.7037 10.239 1.70508C9.11822 1.7037 8.00823 1.92379 6.97279 2.3527C5.93734 2.78161 4.99685 3.41088 4.20535 4.20438C3.41186 4.99588 2.78258 5.93637 2.35367 6.97181C1.92476 8.00725 1.70468 9.11724 1.70606 10.238C1.70468 11.3588 1.92476 12.4687 2.35367 13.5042C2.78258 14.5396 3.41186 15.4801 4.20535 16.2716C4.99685 17.0651 5.93734 17.6944 6.97279 18.1233C8.00823 18.5522 9.11822 18.7723 10.239 18.7709Z" fill="var(--fill-0, white)" id="Vector" stroke="var(--stroke-0, white)" stroke-linejoin="round" stroke-width="1.70658"/>
+<path d="M6.82617 10.2376L9.38605 12.7975L14.5058 7.67773" id="Vector_2" stroke="var(--stroke-0, black)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.70658"/>
+</g>
+</g>
+</mask>
+<g mask="url(#mask0_0_7589)">
+<path d="M0 0H20.479V20.479H0V0Z" fill="var(--fill-0, #FF8237)" id="Vector_3"/>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="100%" overflow="visible" preserveAspectRatio="none" style="display: block;" viewBox="0 0 22 22" width="100%">
+<g id="icon-park-solid:digital-watches">
+<g id="Mask group">
+<mask height="22" id="mask0_0_13865" maskUnits="userSpaceOnUse" style="mask-type:luminance" width="13" x="5" y="0">
+<g id="Group">
+<g id="Group_2">
+<path d="M14.6673 5.95801H7.33398C6.57459 5.95801 5.95898 6.57362 5.95898 7.33301V14.6663C5.95898 15.4257 6.57459 16.0413 7.33398 16.0413H14.6673C15.4267 16.0413 16.0423 15.4257 16.0423 14.6663V7.33301C16.0423 6.57362 15.4267 5.95801 14.6673 5.95801Z" fill="var(--fill-0, white)" id="Vector" stroke="var(--stroke-0, white)" stroke-width="1.83333"/>
+<path d="M13.2923 16.0413V19.2497C13.2923 19.4928 13.1957 19.7259 13.0238 19.8979C12.8519 20.0698 12.6188 20.1663 12.3757 20.1663H9.62565C9.38254 20.1663 9.14938 20.0698 8.97747 19.8979C8.80556 19.7259 8.70898 19.4928 8.70898 19.2497V16.0413M8.70898 5.95801V2.74967C8.70898 2.50656 8.80556 2.2734 8.97747 2.10149C9.14938 1.92958 9.38254 1.83301 9.62565 1.83301H12.3757C12.6188 1.83301 12.8519 1.92958 13.0238 2.10149C13.1957 2.2734 13.2923 2.50656 13.2923 2.74967V5.95801M16.0423 9.62467H16.959" id="Vector_2" stroke="var(--stroke-0, white)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.83333"/>
+<path d="M8.70898 11H9.62565M12.3757 11H13.2923" id="Vector_3" stroke="var(--stroke-0, black)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.83333"/>
+</g>
+</g>
+</mask>
+<g mask="url(#mask0_0_13865)">
+<path d="M0 0H22V22H0V0Z" fill="var(--fill-0, white)" id="Vector_4"/>
+</g>
+</g>
+</g>
+</svg>
