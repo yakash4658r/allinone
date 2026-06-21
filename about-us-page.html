@@ -70,6 +70,207 @@ const sitesRuntime = new SitesRuntime({
   }
 })();
 </script>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=Gabarito:wght@400;500;600&amp;family=Manrope:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<style>
+@media screen and (max-width: 800px) {
+
+    /* ---- HERO ---- */
+    .hero {
+      background: radial-gradient(ellipse at 50% 40%, #4B1A0B 0%, #1a0800 50%, #000 100%);
+      padding: 110px 24px 60px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 50%;
+      transform: translateX(-50%);
+      width: 300px; height: 300px;
+      background: rgba(255,100,30,0.15);
+      border-radius: 50%;
+      filter: blur(80px);
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid rgba(255,133,60,0.4);
+      border-radius: 100px;
+      padding: 6px 14px;
+      margin-bottom: 20px;
+    }
+    .hero-badge .dot { width: 8px; height: 8px; background: #FB650C; border-radius: 50%; }
+    .hero-badge span { color: rgba(255,255,255,0.8); font-size: 13px; font-family: 'Geist', sans-serif; }
+
+    .hero h1 {
+      font-size: 30px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      color: white;
+      line-height: 1.3;
+      margin-bottom: 16px;
+    }
+    .hero h1 span { color: #FF853C; font-weight: 500; }
+
+    .hero p {
+      color: rgba(255,255,255,0.7);
+      font-size: 13px;
+      font-family: 'Geist', sans-serif;
+      line-height: 1.7;
+      max-width: 320px;
+      margin: 0 auto 30px;
+    }
+
+    /* ---- WHAT SETS APART ---- */
+    .apart-section {
+      background: radial-gradient(ellipse at 50% 100%, #3B1205 0%, #000 60%);
+      padding: 50px 24px;
+    }
+    .apart-cards { margin-top: 24px; display: flex; flex-direction: column; gap: 10px; }
+    .apart-row { display: flex; gap: 10px; }
+    .apart-card {
+      flex: 1;
+      background: #111;
+      border: 1px solid #1e1e1e;
+      border-radius: 14px;
+      padding: 18px 14px;
+    }
+    .apart-card h4 { color: white; font-size: 14px; font-family: 'Gabarito', sans-serif; margin-bottom: 8px; font-weight: 500; }
+    .apart-card p { color: rgba(255,255,255,0.55); font-size: 11px; font-family: 'Geist', sans-serif; line-height: 1.6; }
+
+    /* ---- EXCELLENCE ---- */
+    .excellence {
+      background: #000;
+      padding: 50px 24px;
+    }
+    .excellence-card {
+      background: #0d0d0d;
+      border: 1px solid #1e1e1e;
+      border-radius: 16px;
+      padding: 24px 20px;
+      margin-top: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+    .excellence-card::before {
+      content: '17+';
+      position: absolute;
+      right: -10px; top: -20px;
+      font-size: 80px;
+      font-family: 'Manrope', sans-serif;
+      font-weight: 700;
+      color: rgba(255,133,60,0.06);
+      line-height: 1;
+    }
+    .excellence-card h3 { color: white; font-size: 20px; font-family: 'Inter', sans-serif; font-weight: 500; margin-bottom: 10px; }
+    .excellence-card h3 span { color: #FF853C; }
+    .excellence-card p { color: rgba(255,255,255,0.6); font-size: 13px; font-family: 'Geist', sans-serif; line-height: 1.7; margin-bottom: 20px; }
+    .milestones { display: flex; flex-direction: column; gap: 12px; }
+    .milestone {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .milestone-dot { width: 8px; height: 8px; background: #FF853C; border-radius: 50%; flex-shrink: 0; }
+    .milestone span { color: rgba(255,255,255,0.7); font-size: 12px; font-family: 'Geist', sans-serif; }
+
+    /* ---- CORE VALUES ---- */
+    .values-section {
+      background: #080808;
+      padding: 50px 24px;
+    }
+    .values-list { margin-top: 24px; }
+    .value-item {
+      display: flex;
+      gap: 16px;
+      padding: 18px 0;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    .value-item:last-child { border-bottom: none; }
+    .value-num {
+      font-size: 28px;
+      font-family: 'Manrope', sans-serif;
+      font-weight: 700;
+      color: rgba(255,133,60,0.2);
+      min-width: 36px;
+      line-height: 1;
+      padding-top: 2px;
+    }
+    .value-text h4 { color: white; font-size: 15px; font-family: 'Gabarito', sans-serif; margin-bottom: 6px; }
+    .value-text p { color: rgba(255,255,255,0.55); font-size: 12px; font-family: 'Geist', sans-serif; line-height: 1.6; }
+
+    /* ---- TECH STACK ---- */
+    .tech-section {
+      background: #000;
+      padding: 50px 24px;
+    }
+    .tech-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 20px;
+    }
+    .tech-tag {
+      background: #111;
+      border: 1px solid #2a2a2a;
+      border-radius: 8px;
+      padding: 8px 14px;
+      color: rgba(255,255,255,0.7);
+      font-size: 12px;
+      font-family: 'Geist', sans-serif;
+    }
+
+    /* ---- LEADERSHIP ---- */
+    .leadership {
+      background: #080808;
+      padding: 50px 24px;
+    }
+    .leader-card {
+      background: #111;
+      border: 1px solid #1e1e1e;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 12px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .leader-photo {
+      width: 64px; height: 64px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid rgba(255,133,60,0.4);
+      flex-shrink: 0;
+    }
+    .leader-photo img { width: 100%; height: 100%; object-fit: cover; }
+    .leader-info h4 { color: white; font-size: 15px; font-family: 'Gabarito', sans-serif; margin-bottom: 4px; }
+    .leader-info .role { color: #FF853C; font-size: 12px; font-family: 'Geist', sans-serif; margin-bottom: 8px; }
+    .leader-info p { color: rgba(255,255,255,0.55); font-size: 11px; font-family: 'Geist', sans-serif; line-height: 1.5; }
+
+    /* ---- STATS ---- */
+    .about-stats {
+      background: #000;
+      padding: 40px 24px;
+    }
+    .stats-2x2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .s-card {
+      background: #111;
+      border-left: 3px solid #FF7032;
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+    .s-card .num { color: white; font-size: 26px; font-family: 'Manrope', sans-serif; font-weight: 700; }
+    .s-card .lbl { color: rgba(255,255,255,0.5); font-size: 10px; font-family: 'Geist', sans-serif; }
+  
+}
+</style>
 </head>
 <body><div class="desktop-view">
 <script data-template-id="country-code">window.__cf_country = "IN"</script>

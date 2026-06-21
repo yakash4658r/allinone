@@ -70,6 +70,250 @@ const sitesRuntime = new SitesRuntime({
   }
 })();
 </script>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=Gabarito:wght@400;500;600&amp;family=Manrope:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<style>
+@media screen and (max-width: 800px) {
+
+    /* ---- HERO ---- */
+    .hero {
+      background: #000;
+      padding: 110px 24px 50px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      min-height: 100vh;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 80%, rgba(255,100,30,0.12) 0%, transparent 60%);
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid rgba(255,133,60,0.4);
+      border-radius: 100px;
+      padding: 6px 14px;
+      margin-bottom: 20px;
+    }
+    .hero-badge .dot { width: 8px; height: 8px; background: #FB650C; border-radius: 50%; }
+    .hero-badge span { color: rgba(255,255,255,0.8); font-size: 13px; font-family: 'Geist', sans-serif; }
+    .hero-badge span b { color: #FF853C; font-weight: 400; }
+
+    .hero h1 {
+      font-size: 32px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      color: white;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .hero h1 span { color: #FF853C; font-weight: 500; }
+
+    .hero p {
+      color: rgba(255,255,255,0.7);
+      font-size: 13px;
+      font-family: 'Geist', sans-serif;
+      line-height: 1.7;
+      max-width: 320px;
+      margin: 0 auto 28px;
+    }
+
+    .hero-btns {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ---- TEAM VISUAL ---- */
+    .team-visual {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    .team-orbit {
+      position: relative;
+      width: 220px;
+      height: 220px;
+    }
+    .orbit-center {
+      position: absolute;
+      left: 50%; top: 50%;
+      transform: translate(-50%, -50%);
+      width: 70px; height: 70px;
+      border-radius: 50%;
+      border: 3px solid #FF7032;
+      overflow: hidden;
+      z-index: 10;
+      box-shadow: 0 0 30px rgba(255,112,50,0.4);
+    }
+    .orbit-center img { width: 100%; height: 100%; object-fit: cover; }
+    .orbit-member {
+      position: absolute;
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid rgba(255,255,255,0.3);
+    }
+    .orbit-member img { width: 100%; height: 100%; object-fit: cover; }
+    .orbit-member.m1 { top: 0; left: 50%; transform: translateX(-50%); }
+    .orbit-member.m2 { bottom: 0; left: 10px; }
+    .orbit-member.m3 { bottom: 0; right: 10px; }
+    .orbit-member.m4 { top: 50%; left: 0; transform: translateY(-50%); }
+    .orbit-member.m5 { top: 50%; right: 0; transform: translateY(-50%); }
+
+    /* code tags around orbit */
+    .code-tag {
+      position: absolute;
+      color: rgba(255,255,255,0.4);
+      font-size: 11px;
+      font-family: monospace;
+    }
+    .code-tag.top { top: -20px; left: 50%; transform: translateX(-50%); }
+
+    /* ---- WHY JOIN ---- */
+    .why-join {
+      background: #000;
+      padding: 50px 24px;
+    }
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 24px;
+    }
+    .benefit-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid #222;
+      border-radius: 14px;
+      padding: 18px 14px;
+    }
+    .benefit-icon {
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+    .benefit-card h4 { color: white; font-size: 13px; font-family: 'Gabarito', sans-serif; margin-bottom: 6px; }
+    .benefit-card p { color: rgba(255,255,255,0.5); font-size: 11px; font-family: 'Geist', sans-serif; line-height: 1.5; }
+
+    /* ---- OPEN ROLES ---- */
+    .roles-section {
+      background: #080808;
+      padding: 50px 24px;
+    }
+    .role-card {
+      background: #111;
+      border: 1px solid #1e1e1e;
+      border-radius: 14px;
+      padding: 18px 16px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+    .role-card:hover { border-color: #FF7032; }
+    .role-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .role-card h3 { color: white; font-size: 15px; font-family: 'Gabarito', sans-serif; }
+    .role-badge {
+      background: rgba(255,133,60,0.12);
+      color: #FF853C;
+      font-size: 10px;
+      font-family: 'Geist', sans-serif;
+      border-radius: 100px;
+      padding: 3px 10px;
+      white-space: nowrap;
+      margin-left: 8px;
+    }
+    .role-meta {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    .role-meta span {
+      color: rgba(255,255,255,0.4);
+      font-size: 11px;
+      font-family: 'Geist', sans-serif;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .role-card p {
+      color: rgba(255,255,255,0.55);
+      font-size: 12px;
+      font-family: 'Geist', sans-serif;
+      line-height: 1.5;
+    }
+    .apply-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #FF853C;
+      font-size: 12px;
+      font-family: 'Geist', sans-serif;
+      margin-top: 10px;
+    }
+
+    /* ---- CULTURE ---- */
+    .culture-section {
+      background: #000;
+      padding: 50px 24px;
+    }
+    .culture-list { margin-top: 24px; }
+    .culture-item {
+      display: flex;
+      gap: 14px;
+      padding: 16px 0;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    .culture-item:last-child { border-bottom: none; }
+    .culture-num {
+      color: rgba(255,133,60,0.5);
+      font-size: 18px;
+      font-family: 'Manrope', sans-serif;
+      font-weight: 700;
+      min-width: 28px;
+      padding-top: 2px;
+    }
+    .culture-text h4 { color: white; font-size: 14px; font-family: 'Gabarito', sans-serif; margin-bottom: 4px; }
+    .culture-text p { color: rgba(255,255,255,0.55); font-size: 12px; font-family: 'Geist', sans-serif; line-height: 1.5; }
+
+    /* ---- CTA BANNER ---- */
+    .cta-banner {
+      background: linear-gradient(135deg, #FF5700 0%, #c94500 100%);
+      padding: 40px 24px;
+      text-align: center;
+    }
+    .cta-banner h3 { color: white; font-size: 20px; font-family: 'Inter', sans-serif; margin-bottom: 10px; font-weight: 500; }
+    .cta-banner p { color: rgba(255,255,255,0.85); font-size: 13px; font-family: 'Geist', sans-serif; margin-bottom: 24px; }
+    .cta-btn-white {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: white;
+      color: #FF5700;
+      border-radius: 100px;
+      padding: 12px 24px;
+      font-size: 14px;
+      font-family: 'Geist', sans-serif;
+      font-weight: 600;
+    }
+  
+}
+</style>
 </head>
 <body><div class="desktop-view">
 <script data-template-id="country-code">window.__cf_country = "IN"</script>
