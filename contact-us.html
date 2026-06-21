@@ -35,11 +35,11 @@
   
   var s = document.createElement('script');
   s.type = 'module';
-  s.textContent = [
-    "import {SitesRuntime} from '/allinone/_runtimes/sites-runtime.65fdc2a1629b49f11dc11aa6dc31746ed5757c16969241a4b78e382005289e9f.js';",
-    "const sitesRuntime = new SitesRuntime({",
-    "  container: document.getElementById('container'),",
-    "  env: 'published',
+  s.textContent = `
+import {SitesRuntime} from '/allinone/_runtimes/sites-runtime.65fdc2a1629b49f11dc11aa6dc31746ed5757c16969241a4b78e382005289e9f.js';
+const sitesRuntime = new SitesRuntime({
+  container: document.getElementById('container'),
+  env: 'published',
         bundleId: '54c24a41-7a0d-41bb-9b94-28dddfd3427b',
         
         loadComponentsOverNetwork: true,
@@ -55,9 +55,10 @@
         renderOptions: {
           metronomeEnabled: false,
           transform3dEnabled: false,
-        },",
-    "});"
-  ].join('\n');
+        }
+});
+sitesRuntime.start();
+`;
   document.head.appendChild(s);
 })();
 </script>
@@ -321,4 +322,3 @@ applyZoom();
 
 </body>
 </html>
-
