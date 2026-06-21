@@ -30,8 +30,39 @@
 </style>
 
 <script>
-(function() {
-  if (window.innerWidth <= 800) {
+// Load Framer SitesRuntime only on desktop (screen width > 800px)
+if (window.innerWidth > 800) {
+  var s = document.createElement('script');
+  s.type = 'module';
+  s.textContent = `
+import {SitesRuntime} from '/allinone/_runtimes/sites-runtime.65fdc2a1629b49f11dc11aa6dc31746ed5757c16969241a4b78e382005289e9f.js';
+const sitesRuntime = new SitesRuntime({
+  container: document.getElementById('container'),
+  env: 'published',
+        bundleId: '54c24a41-7a0d-41bb-9b94-28dddfd3427b',
+        
+        loadComponentsOverNetwork: true,
+        assetsVersion: 'v11',
+        fontsVersion: 'v1',
+        videosVersion: 'v1',
+        codeComponentsVersion: 'v2',
+        withBaseStyles: true,
+        
+        bundleCreationDate: '2026-06-12 11:05:35 UTC',
+        isMake: false,
+        enableMetaTags: true,
+        renderOptions: {
+          metronomeEnabled: false,
+          transform3dEnabled: false,
+        },
+});
+`;
+  document.head.appendChild(s);
+}
+</script>
+<script>
+  (function() {
+    if (window.innerWidth <= 800) {
     document.addEventListener('DOMContentLoaded', function() {
       var dv = document.querySelector('.desktop-view');
       if (dv) { dv.style.display = 'none'; dv.style.height = '0'; dv.style.overflow = 'hidden'; }
